@@ -1,0 +1,127 @@
+*{
+    margin:30px;
+    padding:0;
+}
+ /* clases creadas*/  
+.color-negro{
+    color:rgb(15, 14, 14)
+}
+.tamaño-letra{
+    font-size: 11.5px;
+    font-style: italic;  
+
+}
+.tamaño-letra2 {
+    font-size: 15.5git px;
+    font-style:italic ;
+
+} 
+ 
+.fuente {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+}
+
+div header nav ul li a{
+    font-style: italic;
+    font-size: 15px;
+    color:rgb(15, 14, 14);
+}
+
+footer ul li a{
+    font-style: italic;
+    font-size: 15px;
+    color:rgb(15, 14, 14);
+    }
+
+
+header img{
+    margin: 0  ;
+    margin-top: 15px;
+    padding: 10 ;    
+}
+header nav ul li{
+    display: inline-block ;
+    
+}
+
+/* APLICANDO FLEXBOX */
+ div  header nav{
+    display:flex;
+    flex-direction:row;
+    justify-content: first baseline;
+    align-items:flex-start;
+    background-color: rgb(25, 65, 25); 
+
+}
+ div nav img{
+    margin-left: 3rem; 
+ }
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:flex-start;
+} 
+a{
+    text-decoration: none;
+}
+
+h1{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+h1 p{
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+}
+
+footer{
+    
+    display:flex;
+    flex-direction:row;
+    justify-content:baseline;
+    align-items:center;
+    background-color:rgb(25, 65, 25);
+    
+
+}
+footer li a{
+    text-decoration: none;
+    display: inline;
+}
+/* whatsapp-icono*/
+footer i{
+    position:relative;
+    bottom: 10px ;
+    right: 10px; 
+    display: flex;
+    flex-direction:row;
+    align-items:flex-end;
+    justify-content:right;
+
+    
+}
+/*movimiento */
+.movimiento{
+    transition: all 1s;
+}
+
+
+.movimiento:hover{
+
+    transform: translate(10px, 10px);
+    transform: scale(1.2);
+}
+
+
+ 
