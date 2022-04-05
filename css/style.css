@@ -22,7 +22,20 @@
     font-weight: 300;
 }
 
-div header nav ul li a{
+ body div {
+   /*  background-image:url("../Imagenes/background.jpg"); */
+   
+}
+
+#card{
+    background-image:url("../Imagenes/background.jpg") !important   ; 
+    
+ }
+ .card{
+    background: transparent !important;
+    
+ }
+ div header nav ul li a{
     font-style: italic;
     font-size: 15px;
     color:rgb(15, 14, 14);
