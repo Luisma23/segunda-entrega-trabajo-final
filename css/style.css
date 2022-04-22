@@ -1,10 +1,16 @@
-*{
+/* *{
     margin:30px;
     padding:0;
-}
+} */
  /* clases creadas*/  
 .color-negro{
     color:rgb(15, 14, 14)
+}
+.portada{
+    color: #fff;
+    margin-bottom: 30px;
+    font-size: 48px;
+    font-weight: 500;
 }
 .tamaño-letra{
     font-size: 12px;
@@ -23,7 +29,7 @@
 }
 
  .imagen-fondo{
-     background-image:url("../Imagenes/background.jpg");    
+    background-image:url("../Imagenes/background.jpg");    
     background-repeat: no-repeat;
     background-position:78%;
     background-size:auto;
@@ -124,6 +130,10 @@ footer i{
 /*movimiento */
 .movimiento{
     transition: all 1s;
+    height: fit-content;
+}
+.fondoInicio{
+    background: #054240;;
 }
 
 
